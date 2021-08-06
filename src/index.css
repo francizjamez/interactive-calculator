@@ -1,0 +1,22 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@layer base {
+  h1 {
+    @apply text-2xl font-bold text-white;
+  }
+  h2 {
+    @apply text-xl font-bold text-white;
+  }
+  p {
+    @apply text-white;
+  }
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
